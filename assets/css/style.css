@@ -1,14 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
 
 
 /*-----------------------------------*\
@@ -256,8 +245,8 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar {
-  width: 5px; /* for vertical scrollbar */
-  height: 5px; /* for horizontal scrollbar */
+  width: 5px; 
+  height: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -554,8 +543,6 @@ header{
 }
 
 
-/* بقیه کد بدون هیچ تغییری در ساختار باقی می‌ماند */
-/* فقط رنگ‌های کلیدی در :root و چند جا تغییر یافته است */
 
 .service-item-text {
   color: var(--light-gray);
@@ -1259,12 +1246,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar-info { gap: 25px; }
 
 .avatar-box {
-  width: 140px;               /* یا هر اندازه‌ای که دوست داری، مثلاً 160px */
+  width: 140px;               
   height: 140px;
-  border-radius: 50%;         /* این خط باعث دایره‌ای شدن می‌شه */
-  overflow: hidden;           /* عکس از لبه‌ها بیرون نزنه */
-  border: 4px solid #6366f1;  /* بوردر indigo (هماهنگ با تم AI/تکنولوژی) */
-  box-shadow: 0 8px 25px rgba(99, 102, 241, 0.25); /* سایه نرم با رنگ تم */
+  border-radius: 50%;         
+  overflow: hidden;           
+  border: 4px solid #6366f1;  
+  box-shadow: 0 8px 25px rgba(99, 102, 241, 0.25); 
   transition: all 0.3s ease;
 }
 
